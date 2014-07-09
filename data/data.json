@@ -1,0 +1,35 @@
+      
+{
+  "animalList": [
+    
+    {
+      "animalModal": "catModal",
+      "animalname": "cat",
+      "animal1": "../public/img/cat1.jpg",
+      "animal2": "../public/img/cat2.jpg",
+      "animal3": "../public/img/cat3.jpg",
+      "animal1Alt": "Cat Picture", 
+      "animal2Alt": "Cat Picture", 
+      "animal3Alt": "Cat Picture"
+    },
+    {
+      "animalname": "dog",
+      "animal1": "../public/img/dog1.jpg",
+      "animal2": "../public/img/dog2.jpg",
+      "animal3": "../public/img/dog3.jpg",
+      "animal1Alt": "Dog Picture", 
+      "animal2Alt": "Dog Picture", 
+      "animal3Alt": "Dog Picture"
+    },  
+    {
+      "animalname": "penguin",
+      "animal1": "../public/img/penguin1.jpg",
+      "animal2": "../public/img/penguin2.jpg",
+      "animal3": "../public/img/penguin3.jpg",
+      "animal1Alt": "Penguin Picture", 
+      "animal2Alt": "Penguin Picture", 
+      "animal3Alt": "Penguin Picture"
+    }
+
+  ]
+}
