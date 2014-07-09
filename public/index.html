@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
+  <meta charset='utf-8'>
+  <title>Amimals</title>
+  <link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css"rel="stylesheet" type="text/css" >
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js" data-main="js/main" type="text/javascript" charset="utf-8"></script>
+  <link rel="shortcut icon" href="http://www.favicon.cc/logo3d/681140.png" size="16x16"> 
+   
+</head>
+
+<body>
+  <div class="page-header">
+    <h1>AMIMALS<br><small>Fun times with animals</small></h1>
+  </div>
+
+  <div class="container">
+    <div class="animalPics">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="img/cat.jpg" data-toggle="modal" data-target="#catModal" class="img-responsive img-rounded" alt="Responsive image">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/dog.jpg" class="img-responsive img-rounded" alt="Responsive image">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/bird.jpg" class="img-responsive img-rounded" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="img/elephant.jpg" class="img-responsive img-rounded" alt="Responsive image">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/zebra.jpeg" class="img-responsive img-rounded" alt="Responsive image">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/penguin.jpg" data-toggle="modal" data-target="#penguinModal" class="img-responsive img-rounded" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Animal Modal -->
+  <div class="modal fade" id="catModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="myModalLabel">CAT</h2>
+        </div>
+        <div class="modal-body">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+         
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/dog.jpg" alt="...">
+              </div>
+              <div class="item">
+                <img src="img/bird.jpg" alt="...">
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <div class="span7 text-center">
+            <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!-- Animal Modal Template -->
+<div class="modal fade" id="catModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">{{animalName}}</h2>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src={{animal1}} alt={{animal1Alt}}>
+            </div>
+            <div class="item">
+              <img src={{animal2}} alt={{animal2Alt}}>
+            </div>
+            <div class="item">
+              <img src={{animal3}} alt={{animal3Alt}}>
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

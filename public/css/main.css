@@ -1,0 +1,27 @@
+body {
+	font-family: 'Pompiere', Arial, serif;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 15px;
+	font-size: 100px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.animalPics {
+	background-color: pink;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	height: 750px;
+	width: 750px;
+}
+
+.btn-danger {
+	text-align: center;
+}
