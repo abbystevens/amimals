@@ -10,6 +10,8 @@ define(function (require) {
 		var 
 
 
+//createAnimal creates the instance of the animal with it's properties
+
 		function createAnimal (animalObject) {
 			for (var i = 0; i < animalObject.animalList.length; i++) {
 				if (animalObject.animalList[i].name {

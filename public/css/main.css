@@ -1,5 +1,6 @@
 body {
 	font-family: 'Pompiere', Arial, serif;
+	color: #514A7F;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h2 {
 }
 
 .animalPics {
-	background-color: pink;
+	background-color: grey;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 25px;
